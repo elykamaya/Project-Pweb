@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Masuk ululu.id</title>
+</head>
+<style>
+    body {
+        background-image: url("gambar/background bendera.jpg");
+        background-image: cover;
+    }
+    #card {
+        background: #fbfbfb;
+        border-radius: 2px;
+        box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.65);
+        height: 450px;
+        margin: 20rem auto 8.1rem auto;
+        width: 380px;
+    }
+    #card-content {
+        padding: 2px 44px;
+    }
+    #card-content {
+        font-family: "Sriracha", sans-serif;
+        letter-spacing: 4px;
+        padding-bottom: 23px;
+        padding-top: 1px;
+        text-align: center;
+    }
+    .underline-title {
+        background: #FF0000;
+        height: 2px;
+        margin: -1.6rem auto 0 auto;
+        width: 300px;
+    }
+    img {
+        height: 125px;
+    }
+</style>
+<body>
+<form action="formmasuk.html" method="GET">
+    <div id="card">
+        <div id="card-content">
+            <div id="card-tittle">
+                <h1>Masuk</h1>
+                <div class="underline-title"></div>
+                <br/>
+                <img src="gambar/Picture1.png" alt="">
+                <p>
+                    <input type="text" name="nama pengguna" placeholder="nama pengguna" />
+                </p>
+                <p>
+                    <input type="password" name="kata sandi" placeholder="kata sandi" />
+                </p>
+                <a href="#"><legend id="forgot-pass">lupa kata sandi?</legend>
+                </a>
+                <input type="checkbox" checked name="c" value="ingatkan kata sandi">ingatkan kata sandi
+                <p>
+                    <input type="submit" value="MASUK">
+                </p>
+                <a href="#"><legend id="create account">buat akun</legend>
+                </a>
+            </div>
+        </div>
+    </div>
+</form>
+</body>
+</html>
