@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Buat Akun</title>
+    </head>
+    <style>
+        h2 {
+            text-align: center;
+        }
+        body {
+            background-image: url("gambar/bendera.jpg");
+            background-size: cover;
+        }
+        #card {
+            background: #fbfbfb;
+            border-radius: 0px;
+            box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+            height: 600px;
+            margin: 6rem auto 8.1rem auto;
+            width: 680px;
+        }
+        #card-content {
+            padding: 12px 44px;
+        }
+        #card-title {
+            font-family: "Sriracha", sans-serif;
+            letter-spacing: 4px;
+            padding-bottom: 23px;
+            padding-top: 13px;
+        }
+        form > div {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 10px;
+        }
+    </style>
+    <body>
+        <div id="card">
+            <div id="card-content">
+                <div id="card-title">
+                    <h2>Buat Akun</h2>
+                    <section>
+                        <form>
+                            <div>
+                                <label for="nama">nama</label>
+                                <input type="text" id="nama" name="nama">
+                            </div>
+                            <div>
+                                <label for="nmp">nama pengguna</label>
+                                <input type="text" id="nmp" name="nmp">
+                            </div>
+                            <div>
+                                <label for="email">email</label>
+                                <input type="text" id="email" name="email">
+                            </div>
+                            <div>
+                                <label for="umur">umur</label>
+                                <input type="text" id="umur" name="umur">
+                            </div>
+                            <div>
+                                <label for="kota">kota</label>
+                                <input type="text" id="kota" name="kota">
+                            </div>
+                            <div>
+                                <label for="kts">kata sandi</label>
+                                <input type="password" id="kts" name="kts">
+                            </div>
+                            <div>
+                                <label for="jeniskl">jenis kelamin</label>
+                                <div>
+                                    <input type="checkbox" checked name="c1" value="laki-laki">laki-laki
+                                    <input type="checkbox" checked name="c2" value="perempuan">perempuan
+                                </div>
+                            </div>
+                            <div>
+                                <input type="submit" value="BUAT AKUN">
+                            </div>
+                        </form>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
